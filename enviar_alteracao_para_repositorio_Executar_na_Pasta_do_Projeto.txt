@@ -1,7 +1,7 @@
 echo OFF
 
 echo --- Preparar aquivos para Subir ----
-
+git init
 git add .
 
 
