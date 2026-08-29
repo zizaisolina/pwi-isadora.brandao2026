@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIENTAÇÃO A OBJETO EM LINGUAGEM PHP</title>
+</head>
+<body>
+    <?php
+
+    /* OBJETOS
+
+- PHP possui o paradigma de orientação a objetos;
+- Podemos criar classes e objetos, e o objeto é considerado um tipo de dado;
+- Objetos possuem métodos que são suas ações e propriedades que são suas características;
+- Veremos objetos em maiores detalhes futuramente no curso;
+
+*/
+
+class Pessoa {
+    function falar () {
+        echo "Olá pessoal!";
+    }
+}
+
+$patricia = new Pessoa ();
+
+$patricia -> nome = "Patricia";
+
+echo $patricia -> nome;
+
+echo "<br>";
+
+$patricia -> falar();
+
+?> 
+
+</body>
+</html>
